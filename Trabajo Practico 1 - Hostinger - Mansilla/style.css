@@ -164,19 +164,19 @@ header .btn-menu{
 
 
 .title-max{
-    font-size: 2.25rem;
+    font-size: 2.25em;
     color:  var(--color-principal-600);
     font-weight: 700;
     line-height: 40px;
 }
 .text-offer{
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: var(--color-principal-600);
     font-weight: 700;
     padding: 8px 0px 24px;
 }
 .text-special{
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: var(--color-principal-500);
     font-weight: 700;
 }
@@ -186,22 +186,22 @@ header .btn-menu{
     color: #0db496;
 }
 .text-price{
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: var(--color-principal-600);
     font-weight: 400;
 }
 .text-price-dest{
-    font-size: 3rem;
+    font-size: 3em;
     color: var(--color-principal-600);
     font-weight: 700;
 }
 .hero-content-left__list span{
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 400;
     color: var(--color-principal-600);
 } 
 .text-warranty{
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 400;
     color: var(--color-principal-600);
 }
@@ -212,6 +212,7 @@ header .btn-menu{
     align-items: center;
     justify-content: space-between;
     padding: 36px 80px 96px;
+    font-size: 1rem;
 }
 .hero-content-left{
     max-width: 436px;
@@ -364,6 +365,8 @@ header .btn-menu{
     padding: 12px 48px;
     text-decoration: none;
 }
+
+
 .primary-link {
     font-size: 1rem;
     color: var(--color-principal-500);
@@ -568,14 +571,58 @@ header .btn-menu{
 }
 
 @media screen and (max-width:768px) {
-    html{
-        font-size: 10.7px;
+
+    .title-max{
+        font-size:24px; 
     }
 
     .hero-content {
         padding: 24px 16px; 
         flex-direction: column; 
         gap: 24px; 
+    }
+    .hero-content-left__list{
+        font-size: 14px;
+        padding: 0 0 16px;
+    }
+    .text-offer{
+        font-size: 18px;
+        padding:0 0 12px;
+    }
+    .text-price{
+        font-size: 20px;
+    }
+    .text-price-dest{
+        font-size: 36px;
+    }
+    .text-warranty{
+        font-size: 16px;
+    }
+    .hero-content-button{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .card-review-container-head{
+        padding: 0 16px;
+        line-height: 24px;
+    }
+    .card-review_content-dark{
+        padding: 0 16px;
+    }
+    .section_dark{
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+    
+    .title-medium{
+        font-size: 24px;
+    }
+    .text-medium{
+        font-size: 16px;
+    }
+    .title-small-dark{
+        font-size: 18px;
     }
     .section-footer-header_top{
         display: flex;
