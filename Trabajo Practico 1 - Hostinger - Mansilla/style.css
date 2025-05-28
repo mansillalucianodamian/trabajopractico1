@@ -528,17 +528,6 @@ header .btn-menu{
 
 
 /* Cuando el ancho de mi pagina sea inferior a 1270px ocurrira tal cosa */
-@media screen and (max-width: 1270px) { 
-    html{
-        font-size: 15px;
-    }
-    .section-content{
-        width: 688px;
-    }
-    .card-review-container{
-        flex-direction: column;
-    }
-}
 
 @media screen and (max-width:1140px){
     html{
@@ -556,17 +545,92 @@ header .btn-menu{
     header .btn-menu{
         display: flex;
     }
+    .secction-footer{
+        max-width: 1208px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     
 }
 
 @media screen and (max-width:1020px){
+    .title-max{
+        font-size: 28px;
+        line-height: 40px;
+        text-align: start;
+        white-space: nowrap;
+    }
+    .text-offer{
+        font-size: 18px;
+    }
+    .text-special{
+        font-size: 18px;
+    }
+    .text-price{
+        font-size: 20px;
+    }
+    .text-price-dest{
+        font-size: 40px;
+    }
+    .text-warranty{
+        font-size: 16px;
+    }
+    .title-medium{
+        font-size: 28px;
+    }
+    .text-medium{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .title-small-dark{
+        font-size: 18px;
+    }
+    .btn-primary-dark{
+        font-size: 16px;
+    }
     .hero-content{
         display: flex;
         flex-direction: column;
+        max-width: 768px;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-items: flex-start;
+    }
+    .hero-content-left{
+        padding-bottom: 60px;
+    }
+
+    .section-content-dark{
+        max-width: 768px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .hero-content-left__list span{
+        font-size: 16px;
     }
     .card-review_content-dark{
         display: flex;
         flex-direction: column;
+    }
+    .secction-footer{
+        max-width: 768px;
+        padding-left: 40px;
+        padding-right: 40px;
+        gap:16px;
+    }
+    .section-footer-header_bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .section-footer-header_bottom-img{
+        margin-top: 24px;
+    }
+    .section-footer-body{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
     }
 }
 
@@ -624,6 +688,12 @@ header .btn-menu{
     .title-small-dark{
         font-size: 18px;
     }
+    .text-medium-hero{
+        font-size: 14px;
+    }
+    .section-footer-header_bottom-img a{
+        font-size: 14px;
+    }
     .section-footer-header_top{
         display: flex;
         flex-direction: column-reverse;
@@ -652,7 +722,6 @@ header .btn-menu{
         flex-wrap: wrap;         
         justify-content: flex-start; 
         gap: 16px;
-        padding: 0 16px;
         max-width: 328px;
     }
     .secction-footer-legal-link{
@@ -660,9 +729,7 @@ header .btn-menu{
         flex-wrap: wrap;         
         justify-content: flex-start; 
         gap: 16px;
-        padding: 0 16px;
         max-width: 328px;
-        font-size: 16px;
     }
     .section-footer-body{
         display: flex;
