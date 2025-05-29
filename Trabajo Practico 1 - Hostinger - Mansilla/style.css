@@ -592,9 +592,11 @@ header .btn-menu{
         display: flex;
         flex-direction: column;
         max-width: 768px;
+        width: 100%;
         padding-left: 40px;
         padding-right: 40px;
         align-items: flex-start;
+        box-sizing: border-box;
     }
     .hero-content-left{
         padding-bottom: 60px;
@@ -605,7 +607,10 @@ header .btn-menu{
         padding-left: auto;
         padding-right: auto;
     }
-
+    .card-review-container{
+        display: flex;
+        flex-direction: column;
+    }
     .hero-content-left__list span{
         font-size: 16px;
     }
@@ -638,6 +643,7 @@ header .btn-menu{
 
     .title-max{
         font-size:24px; 
+        white-space: normal;
     }
 
     .hero-content {
